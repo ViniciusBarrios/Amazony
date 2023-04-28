@@ -13,17 +13,6 @@ import Testimony from "@components/Testimony";
 import Whatsapp from "@components/Whatsapp/Whatsapp";
 
 export default () => {
-  const presentation_checkList = [
-    "Reduz a aparência de linhas finas em poucos dias de uso",
-    "Hidratação 24 horas",
-    "Clareia e Uniformiza a Pele",
-    "Clareador de Manchas",
-    "Elimina o “Pé de Galinha” e “Bigode Chinês”",
-    "Devolve a Firmeza e Elasticidade a sua Pele",
-    "Reduz estrias, cicatrizes e combate a folculite",
-    "Alívio das irritações",
-  ];
-
   const kits = [
     {
       link: "https://bit.ly/3LyThv8",
@@ -91,7 +80,7 @@ export default () => {
     <>
       <Header />
 
-      <Presentation checkList={presentation_checkList} />
+      <Presentation />
 
       <Benefits />
 
