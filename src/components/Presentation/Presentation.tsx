@@ -19,11 +19,18 @@ import {
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
-type Presentation = {
-  checkList: string[];
-};
+export default () => {
+  const checkList = [
+    "Reduz a aparência de linhas finas em poucos dias de uso",
+    "Hidratação 24 horas",
+    "Clareia e Uniformiza a Pele",
+    "Clareador de Manchas",
+    "Elimina o “Pé de Galinha” e “Bigode Chinês”",
+    "Devolve a Firmeza e Elasticidade a sua Pele",
+    "Reduz estrias, cicatrizes e combate a foliculite",
+    "Alívio das irritações",
+  ];
 
-export default ({ checkList }: Presentation) => {
   return (
     <>
       <Container>
