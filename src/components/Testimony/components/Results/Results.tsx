@@ -21,6 +21,7 @@ export default ({ images }: MosaicProps) => (
     }}
     slidesPerView={1}
     spaceBetween={20}
+    autoHeight
     breakpoints={{
       1200: {
         slidesPerView: 3,
