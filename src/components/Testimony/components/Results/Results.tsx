@@ -21,7 +21,6 @@ export default ({ images }: MosaicProps) => (
     }}
     slidesPerView={1}
     spaceBetween={20}
-    autoHeight
     breakpoints={{
       1200: {
         slidesPerView: 3,
@@ -32,7 +31,7 @@ export default ({ images }: MosaicProps) => (
     }}
   >
     {images.map((resultImage, index) => (
-      <SwiperSlide key={index}>
+      <SwiperSlide key={index} style={{ height: "none" }}>
         <Container>
           <Img
             width={500}
